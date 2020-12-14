@@ -1,0 +1,111 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+
+    background: #360033;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    color: white;
+   
+}
+
+.login {
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 20px 0 20px 0;
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.login:hover {    
+    transition: all 1s;
+    background: linear-gradient(to  top right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transform: translate3d(-50%,-50%,10px) scale(1.1,1.1);
+    box-shadow: 5px 5px 15px , -5px -5px 15px  white ;
+    border: 3px solid black;
+    border-radius: 0px 50%;
+
+    
+
+}
+
+
+.text {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.login input[type="text"] , .login input[type="password"] {
+    display: block;
+    margin: 30px auto;
+    width: 250px;
+    background-image: none;
+    border: 3px solid white;
+    border-radius: 25px;
+    background-color: none;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    outline: none;
+
+}
+
+.login input[type="text"]:hover , .login input[type="password"]:hover {
+    transition: all .6s;
+    transform: scale(1.1,1.1);
+    display: block;
+    margin: 30px auto;
+    width: 300px;
+    background-image: none;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: none;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    outline: none;
+
+}
+
+.login input[type="submit"] {
+
+    display: block;
+    margin: 30px auto;
+    width: 150px;
+    background-image: none;
+    border: 3px solid white;
+    border-radius: 25px;
+    background-color: none;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    outline: none;
+}
+
+
+.login input[type="submit"]:hover {
+    transition: all .6s;
+    transform: scale(1.1,1.1);
+    background-image: (-109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
+    display: block;
+    margin: 30px auto;
+    width: 300px;
+    background-image: none;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: none;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    outline: none;
+}
